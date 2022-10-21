@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Spooky Tic-Tac-Toe | Christa DeJesus</title>
+</head>
+
+<body>
+    <!-- Thank you to Coding with Adam for your tutorial @ https://www.youtube.com/watch?v=fPew9OI2PnA that helped me work through the JS for this project.
+    I did change some things and added others to fit my project, but I highly recommend checking out the link above! -->
+    <div class="content-container">
+        <header class="page-header">
+            <h1>Spooky Tic-Tac-Toe</h1>
+            <h2 id="turn-notice">It's 👻's turn.</h2>
+        </header>
+        <main class="content-flex">
+            <div class="board" id="board">
+                <div data-index="1" class="tile"></div>
+                <div data-index="2" class="tile"></div>
+                <div data-index="3" class="tile"></div>
+                <div data-index="4" class="tile"></div>
+                <div data-index="5" class="tile"></div>
+                <div data-index="6" class="tile"></div>
+                <div data-index="7" class="tile"></div>
+                <div data-index="8" class="tile"></div>
+                <div data-index="9" class="tile"></div>
+                <div id="strike" class="strike"></div>
+            </div>
+            <div id="game-over-area" class="game-over-area hidden">
+                <h2 id="game-over-text"></h2>
+                <button id="play-again">Play Again</button>
+            </div>
+        </main>
+        <footer><a href="https://christadejesus.com" target="_blank" rel="noreferrer">christadejesus.com</a></footer>
+    </div>
+</body>
+
+</html>
